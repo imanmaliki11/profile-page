@@ -75,6 +75,10 @@ a {
     #portfolio h2 {
         font-size: 25px !important;
     }
+
+    .portfolio h2 {
+        font-size: 25px !important;
+    }
 }
 
 
@@ -757,4 +761,78 @@ footer h4 {
     font-size: 2rem;
     margin-inline: .5rem;
     margin-bottom: .5rem;
+}
+
+
+
+/* PROJECT CSS PAGE  */
+.portfolio {
+    padding: 80px 0;
+    background: #F2AF29;
+}
+
+
+.portfolio h2 {
+    padding: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+}
+
+.portfolio img {
+    max-width: 100%;
+}
+
+.portfolio .row>div {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+
+
+.portfolio .row div .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: calc(100% - 30px);
+    transform: scale(0);
+    margin: auto;
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    background: #F2AF29aa;
+    border-radius: 20%;
+}
+
+.portfolio .row div:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+    height: 100%;
+    border-radius: 0;
+}
+
+.portfolio .row div .overlay h3 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -200%);
+    transform: translate(-50%, -200%);
+    -ms-transform: translate(-50%, -200%);
+    letter-spacing: .05em;
+}
+
+.portfolio2 {
+    background-color: #001011;
+}
+
+.portfolio2 p{
+    color: #F2AF29;
 }
