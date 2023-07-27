@@ -836,3 +836,18 @@ footer h4 {
 .portfolio2 p{
     color: #F2AF29;
 }
+
+.btn-outline-first {
+    font-weight: 700;
+    outline: .1rem solid #F2AF29;
+    background-color: transparent;
+    color: #F2AF29;
+    padding: .3rem 3rem;
+    font-size: .75rem;
+    border-radius: 3rem;
+}
+
+.btn-outline-first:hover {
+    background-color: #F2AF29;
+    color: #001011;
+}
